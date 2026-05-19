@@ -1,0 +1,66 @@
+body {
+
+    font-family: Arial;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+
+.container {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:30px;
+
+}
+
+
+input,
+button {
+
+    padding:10px;
+
+}
+
+
+button {
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+button:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+#events div {
+
+    border:1px solid black;
+
+    margin:10px;
+
+    padding:20px;
+
+}
+
+
+.bar {
+
+    background:green;
+
+    height:30px;
+
+}
